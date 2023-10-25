@@ -7,5 +7,4 @@ camarades.forEach((camarade, index) => {
   console.log(chalk.keyword(chalkColors[color])(camarade));
 });
 
-// Define available chalk colors
 const chalkColors = ['red','cyanBright','greenBright','magenta','yellow','cyan',];
