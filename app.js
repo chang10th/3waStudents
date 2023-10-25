@@ -8,3 +8,4 @@ camarades.forEach((camarade, index) => {
   const color = index % chalkColors.length; // Utilisation du modulo pour boucler à travers les couleurs
   console.log(chalk[chalkColors[color]](camarade));
 });
+
