@@ -6,7 +6,7 @@ const chalkColors = ['red','cyanBright','greenBright','magenta','yellow','cyan',
 
 camarades.forEach((camarade, index) => {
   const color = index % 6 + 1;
-  console.log(chalk.keyword(chalkColors[color])(camarade));
+  console.log(chalk.hex(chalkColors[color])(camarade));
 });
 
 
