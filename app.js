@@ -1,4 +1,4 @@
-import chalk from 'chalk';
+import chalk from './node_modules/chalk';
 
 const camarades = ['Elie', 'Hava', 'Jérôme', 'Jayson'];
 
